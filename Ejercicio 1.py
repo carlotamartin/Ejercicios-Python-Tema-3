@@ -7,4 +7,5 @@ def mru(velocidad, tiempo):
     return distancia
 
 print("La distancia es: ")
-print (mru(8,9)+"m/s")
+print (mru(8,9)) 
+print ("m/s")
