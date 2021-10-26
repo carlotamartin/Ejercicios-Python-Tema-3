@@ -2,14 +2,14 @@ a = int ( input ())
 b = int ( input ())
 
 #La primera línea contiene la suma de los dos números.
-s =a+b
-print (s)
+suma =a+b
+print (suma)
 #La segunda línea contiene la diferencia de los dos números (primero - segundo).
-d= a-b
-print (d)
+diferencia= a-b
+print (diferencia)
 #La tercera línea contiene el producto de los dos números
-p=a*b
-print(p)
+producto=a*b
+print(producto)
 #La cuarta línea debe contener el resultado de la división de enteros
 div_enteros = a//b
 print(div_enteros)
