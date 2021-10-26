@@ -1,5 +1,5 @@
-a = int ( input ())
-b = int ( input ())
+a = int ( input ("Escribe un número"))
+b = int ( input ("Escribe otro número"))
 
 #La primera línea contiene la suma de los dos números.
 suma =a+b
