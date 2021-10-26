@@ -6,4 +6,4 @@ def mru(velocidad, tiempo):
     distancia = velocidad*tiempo
     return distancia
 
-print("La distancia es: "+ str(mru(8,9))+"m/s")
+print("La distancia es: "+ str(mru(8,9))+" m/s")
