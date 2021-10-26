@@ -3,6 +3,7 @@ import random
 num_aleatorio = random.randint(1,15)
 
 num_adivinado = input("Adivina un número entre el 1 y el 15")
+intentos =0
 
 while(num_adivinado != num_aleatorio):
     num_adivinado = input("Adivina un número entre el 1 y el 15")
