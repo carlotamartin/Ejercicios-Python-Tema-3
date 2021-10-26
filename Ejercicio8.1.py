@@ -13,6 +13,6 @@ while(num_adivinado != num_aleatorio):
     if(num_adivinado<num_aleatorio):
         print ("El numero es mayor")
     else:
-        print ("El numero es mayor")
+        print ("El numero es menor")
 
-print ("Has acertado el numero " + num_aleatorio + " en el intento "+ str(intentos))
+print ("Has acertado el numero " + str(num_aleatorio) + " en el intento "+ str(intentos))
