@@ -10,14 +10,16 @@ num_adivinado = 0
 intentos =0
 
 #Creamos un bucle que vaya pidiendo numeros hasta que coincida con el numero aleatorio. Solos podrá acertar en 9 intentos
-for i in range (0,8):
-    while(num_adivinado != num_aleatorio):
-        num_adivinado = int(input("Adivina un numero entre el 1 y el 300: "))
-        intentos +=1
-        if(num_adivinado<num_aleatorio):
-            print ("El numero es mayor")
-        else:
-            print ("El numero es menor")
+
+while(num_adivinado != num_aleatorio and intentos<9):
+    num_adivinado = int(input("Adivina un numero entre el 1 y el 300: "))
+    intentos +=1
+    if(num_adivinado<num_aleatorio):
+        print ("El numero es mayor")
+    elif (num_adivinado>num_aleatorio):
+        print ("El numero es menor")
+    else:
+        break
 
 if (num_adivinado == num_aleatorio):
     print ("Has acertado el numero " + str(num_aleatorio) + " en el intento "+ str(intentos))
