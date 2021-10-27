@@ -19,4 +19,7 @@ for i in range (0,8):
         else:
             print ("El numero es menor")
 
-print ("Has acertado el numero " + str(num_aleatorio) + " en el intento "+ str(intentos))
+if (num_adivinado == num_aleatorio):
+    print ("Has acertado el numero " + str(num_aleatorio) + " en el intento "+ str(intentos))
+else:
+    print("¡Se te han acabado los intentos!")
